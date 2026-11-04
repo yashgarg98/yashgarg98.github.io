@@ -29,9 +29,7 @@
 				<li><a href="#about">About</a></li>
 				<li><a href="#news">News</a></li>
 				<li><a href="#publications">Publications</a></li>
-				<li><a href="#experience">Experience</a></li>
-				<li><a href="#education">Education</a></li>
-				<li><a href="#service">Service</a></li>
+				<li><a href="#reviewer">Reviewer</a></li>
 				<li><a href="asset/pdf/Yash_Garg_CV.pdf" target="_blank" rel="noopener">CV</a></li>
 			</ul>
 		</nav>
@@ -61,7 +59,7 @@
 					Electrical and Electronics Engineering at <a href="https://vit.ac.in/" target="_blank" rel="noopener">VIT Vellore</a>.
 				</p>
 				<p>
-					My research sits at the intersection of <b>3D computer vision</b> and <b>multi-modal learning</b>. I work on
+					My research sits at the intersection of <b>3D computer vision</b> and <b>scene understanding</b>. I work on
 					3D human pose and shape estimation under occlusion, scene representations such as
 					<b>Gaussian Splatting</b> and <b>NeRFs</b>, and, more recently, evaluating and improving the
 					<b>physical reasoning</b> abilities of <b>vision-language models</b>. I also have experience with
@@ -87,6 +85,7 @@
 		<section id="news">
 			<h2>News</h2>
 			<ul class="news">
+				<li><span class="date">2026</span><span><a href="https://doi.org/10.1109/TIP.2026.3689414" target="_blank" rel="noopener">POSTURE</a> accepted to <b>IEEE Transactions on Image Processing (TIP)</b>.</span></li>
 				<li><span class="date">Sep 2026</span><span>Wrapped up my research internship at <b>MERL</b> working on physical reasoning benchmarks for VLMs. The collaboration continues!</span></li>
 				<li><span class="date">Jun 2026</span><span>Started a research internship at <a href="https://www.merl.com/" target="_blank" rel="noopener">MERL</a> with <a href="https://www.merl.com/people/cherian" target="_blank" rel="noopener">Anoop Cherian</a>.</span></li>
 				<li><span class="date">Oct 2025</span><span>Presented <b>VOccl3D</b> at <b>ICCV 2025</b> in Honolulu, Hawaii.</span></li>
@@ -149,12 +148,13 @@
 			</article>
 
 			<article class="pub">
-				<div class="venue-badge">IEEE <br>TIP</div>
+				<div class="venue-badge">TIP <br>2026</div>
 				<div class="pub-body">
 					<h3>POSTURE: Pose Guided Unsupervised Domain Adaptation for Human Body Part Segmentation</h3>
 					<p class="authors">Arindam Dutta, Rohit Lal, <b>Yash Garg</b>, Calvin-Khang Ta, Dripta S. Raychaudhuri, Hannah Dela Cruz, Amit K. Roy-Chowdhury</p>
-					<p class="venue"><i>Under review, IEEE Transactions on Image Processing (TIP)</i></p>
+					<p class="venue"><i>IEEE Transactions on Image Processing (TIP), 2026</i></p>
 					<p class="links">
+						<a href="https://doi.org/10.1109/TIP.2026.3689414" target="_blank" rel="noopener">Paper</a>
 						<a href="https://arxiv.org/abs/2407.03549" target="_blank" rel="noopener">arXiv</a>
 					</p>
 				</div>
@@ -173,121 +173,26 @@
 			</article>
 		</section>
 
-		<!-- ============================ EXPERIENCE ============================ -->
-		<section id="experience">
-			<h2>Experience</h2>
-
-			<div class="entry">
-				<div class="entry-head">
-					<h3>Mitsubishi Electric Research Laboratories (MERL)</h3>
-					<span class="when">Jun 2026 – Sep 2026</span>
-				</div>
-				<p class="sub">Research Intern · Manager: Anoop Cherian</p>
-				<ul>
-					<li>Contributed to the design and development of a synthetic, game-engine-simulated dataset for evaluating physical reasoning.</li>
-					<li>Benchmarked state-of-the-art open- and closed-source vision-language models on physical reasoning. Collaboration ongoing, targeting a peer-reviewed publication.</li>
-				</ul>
-			</div>
-
-			<div class="entry">
-				<div class="entry-head">
-					<h3>Motional</h3>
-					<span class="when">Jun 2025 – Sep 2025</span>
-				</div>
-				<p class="sub">ML Intern · Manager: Patrick Buehler</p>
-				<ul>
-					<li>Built a multi-modal vehicle-light classifier fusing image sequences with vehicle metadata (acceleration, yaw), reducing error by 14.4% over the image-only baseline.</li>
-					<li>Distilled a CLIP-based teacher into a deployment-ready student that is 61.8% faster and 55% smaller while retaining over 97% of its accuracy.</li>
-				</ul>
-			</div>
-
-			<div class="entry">
-				<div class="entry-head">
-					<h3>University of California, Riverside</h3>
-					<span class="when">Sep 2021 – Present</span>
-				</div>
-				<p class="sub">Graduate Student Researcher · Prof. Amit K. Roy-Chowdhury &amp; Prof. M. Salman Asif</p>
-				<ul>
-					<li>Robust semantic segmentation for 3D Gaussian Splatting that lifts noisy, partial 2D masks into 3D via feature-guided Gaussian expansion (+8.06 mIoU over the best baseline; under review).</li>
-					<li>VOccl3D: a video benchmark for 3D human pose and shape under real occlusions, built with SMPL, Gaussian Splats/NeRFs, Blender and Unity (ICCV 2025).</li>
-					<li>STRIDE: unsupervised, temporally continuous 3D human pose estimation under occlusion (WACV 2025).</li>
-					<li>Unsupervised human tracking, silhouette and pose extraction under occlusion for an IARPA biometric recognition project.</li>
-					<li>Factorized Tensor Networks: a low-rank PEFT architecture for multi-task and multi-domain learning (IEEE OJSP 2025).</li>
-				</ul>
-			</div>
-
-			<div class="entry">
-				<div class="entry-head">
-					<h3>Ageye Technologies, Bangalore</h3>
-					<span class="when">Nov 2020 – May 2021</span>
-				</div>
-				<p class="sub">Computer Vision Intern</p>
-				<ul>
-					<li>Developed an edge-detection model for overlapping leaves (92% accuracy) and a pipeline computing leaf orientation, count and centers, deployed in indoor farms.</li>
-				</ul>
-			</div>
-
-			<div class="entry">
-				<div class="entry-head">
-					<h3>Emory University</h3>
-					<span class="when">Apr 2020 – Nov 2020</span>
-				</div>
-				<p class="sub">Research Intern · Prof. Rishikesan Kamaleswaran</p>
-				<ul>
-					<li>Developed an interpretable ML model for early prediction of ARDS in critically ill COVID-19 patients (AUROC 0.89), resulting in a co-first-author PLoS ONE paper.</li>
-				</ul>
-			</div>
-		</section>
-
-		<!-- ============================ EDUCATION ============================ -->
-		<section id="education">
-			<h2>Education</h2>
-			<div class="entry">
-				<div class="entry-head">
-					<h3>Ph.D., Electrical and Computer Engineering</h3>
-					<span class="when">Sep 2023 – Present</span>
-				</div>
-				<p class="sub">University of California, Riverside · Advisors: Prof. Amit K. Roy-Chowdhury, Prof. M. Salman Asif</p>
-			</div>
-			<div class="entry">
-				<div class="entry-head">
-					<h3>M.S. (Research), Electrical and Computer Engineering</h3>
-					<span class="when">Sep 2021 – Aug 2023</span>
-				</div>
-				<p class="sub">University of California, Riverside · Advisor: Prof. M. Salman Asif</p>
-			</div>
-			<div class="entry">
-				<div class="entry-head">
-					<h3>B.Tech., Electrical and Electronics Engineering</h3>
-					<span class="when">Aug 2016 – Jun 2020</span>
-				</div>
-				<p class="sub">Vellore Institute of Technology (VIT), Vellore</p>
-			</div>
-		</section>
-
-		<!-- ============================ SERVICE & AWARDS ============================ -->
-		<section id="service">
-			<h2>Service &amp; Awards</h2>
+		<!-- ============================ REVIEWER ============================ -->
+		<section id="reviewer">
+			<h2>Reviewer</h2>
 			<div class="two-col">
 				<div>
-					<h3 class="minor">Reviewer</h3>
+					<h3 class="minor">Conferences</h3>
 					<ul class="plain">
-						<li>CVPR 2024, 2025, 2026</li>
-						<li>ICCV 2025</li>
-						<li>ECCV 2026</li>
-						<li>ACCV 2026</li>
-						<li>3DV 2027</li>
-						<li>ICIP 2025, 2026</li>
-						<li>IEEE Transactions on Computational Imaging (TCI) 2025</li>
-						<li>IEEE Open Journal of Signal Processing (OJSP)</li>
+						<li>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2024, 2025, 2026</li>
+						<li>IEEE/CVF International Conference on Computer Vision (ICCV) 2025</li>
+						<li>European Conference on Computer Vision (ECCV) 2026</li>
+						<li>Asian Conference on Computer Vision (ACCV) 2026</li>
+						<li>International Conference on 3D Vision (3DV) 2027</li>
+						<li>IEEE International Conference on Image Processing (ICIP) 2025, 2026</li>
 					</ul>
 				</div>
 				<div>
-					<h3 class="minor">Awards</h3>
+					<h3 class="minor">Journals</h3>
 					<ul class="plain">
-						<li>Dean's Distinguished Fellowship, UC Riverside</li>
-						<li>GVSDP Scholarship, VIT Vellore</li>
-						<li>$10,000 Microsoft Azure research credit grant for pandemic research</li>
+						<li>IEEE Transactions on Computational Imaging (TCI) 2025</li>
+						<li>IEEE Open Journal of Signal Processing (OJSP)</li>
 					</ul>
 				</div>
 			</div>
